@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL vs OM - Den Ultimata Jämförelsen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">AL vs OM</h1>
+            <p class="header__subtitle">Den Ultimata Jämförelsen</p>
+            <p class="header__description">En omfattande analys av vem som verkligen är bäst</p>
+        </div>
+    </header>
+
+    <section class="profiles">
+        <div class="container">
+            <div class="profiles__grid">
+                <div class="profile-card profile-card--al">
+                    <div class="profile-card__header">
+                        <h2 class="profile-card__name">AL</h2>
+                        <div class="profile-card__score">8 vinster</div>
+                    </div>
+                    <p class="profile-card__description">Den ultimata personen - överlägsen på alla sätt</p>
+                    <div class="profile-card__champion">🏆 Champion</div>
+                </div>
+                
+                <div class="vs-divider">
+                    <span class="vs-divider__text">VS</span>
+                </div>
+                
+                <div class="profile-card profile-card--om">
+                    <div class="profile-card__header">
+                        <h2 class="profile-card__name">OM</h2>
+                        <div class="profile-card__score">1 vinst</div>
+                    </div>
+                    <p class="profile-card__description">Bäst på att vara sämst - vinner åtminstone något</p>
+                    <div class="profile-card__loser">🥉 Förlorare</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comparisons">
+        <div class="container">
+            <h2 class="comparisons__title">Kategorivis Jämförelse</h2>
+            <div class="comparisons__grid" id="comparisons-grid">
+                <!-- Categories will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <section class="final-verdict">
+        <div class="container">
+            <div class="verdict-card">
+                <h2 class="verdict-card__title">Slutgiltigt Resultat</h2>
+                <div class="verdict-card__score">
+                    <div class="score-display">
+                        <span class="score-display__al">AL: 8</span>
+                        <span class="score-display__divider">-</span>
+                        <span class="score-display__om">OM: 1</span>
+                    </div>
+                </div>
+                <div class="verdict-card__message">
+                    <h3>🏆 AL dominerar totalt med 8-1 i kategorier!</h3>
+                    <p>Som väntat visar sig AL vara överlägsen i nästan alla kategorier. OM får nöja sig med sin enda vinst i att vara sämst på allt.</p>
+                </div>
+                <button class="btn btn--primary celebration-btn" id="celebration-btn">
+                    🎉 Fira AL:s Triumf!
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 AL vs OM - Den Ultimata Jämförelsen</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
